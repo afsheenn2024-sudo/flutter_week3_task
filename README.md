@@ -101,7 +101,7 @@ flutter run
 6. Delete tasks when required.
 7. Restart the application to verify saved data.
 
-## Testing and Debugging
+## Testing
 
 The application was tested to verify:
 
