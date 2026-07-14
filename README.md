@@ -1,51 +1,57 @@
-Flutter Task Manager App
+# Flutter Task Manager App
 
-A simple Task Management Application developed using Flutter as part of the Flutter Internship Week 6 Final Project.
+A simple **Task Management Application** developed using Flutter as part of the **Flutter Internship Week 6 Final Project**.
 
-The application allows users to manage their daily tasks efficiently. Users can create new tasks, mark tasks as completed, delete tasks, and store task data locally. The project uses Provider for state management and SharedPreferences for local data persistence.
+The application allows users to create, manage, and organize daily tasks. Users can add new tasks, mark tasks as completed, and delete tasks. Task data is stored locally using **SharedPreferences**, ensuring that tasks remain available even after the application is closed and reopened.
 
-Project Overview
+This updated version uses **Provider** for state management and includes smooth animations to improve the overall user experience.
 
-The goal of this project is to build a functional Task Management application with:
+## Project Overview
 
-* A home screen displaying a list of tasks
-* Ability to add, delete, and complete tasks
-* Local data storage for saving tasks
-* Efficient state management using Provider
-* Improved user interface with animations
+The objective of this project is to develop a functional Task Management application with:
 
-Features
+- A home screen displaying a list of tasks
+- Functionality to add new tasks
+- Ability to delete tasks
+- Ability to mark tasks as completed
+- Local data persistence using SharedPreferences
+- State management using Provider
+- Improved UI experience with animations
 
-Task Management
+## Features
 
-* View all tasks on the home screen
-* Add new tasks
-* Mark tasks as completed
-* Delete tasks
-* Maintain task data after app restart
+### Task Management
 
-User Interface
+- View all tasks
+- Add new tasks
+- Mark tasks as completed
+- Delete tasks
+- Save tasks locally
+- Restore tasks after application restart
 
-* Splash screen
-* Clean and simple UI design
-* Smooth task list animations
-* User-friendly navigation
+### User Interface
 
-Data Management
+- Splash screen
+- Clean and simple UI design
+- Smooth task animations
+- User-friendly interaction
 
-* Local storage using SharedPreferences
-* State management using Provider
-* Automatic UI updates when task data changes
+### Data Management
 
-Technologies Used
+- SharedPreferences for local storage
+- Provider for efficient state management
+- Automatic UI updates when task data changes
 
-* Flutter - Application development framework
-* Dart - Programming language
-* Provider - State management solution
-* SharedPreferences - Local data persistence
+## Technologies Used
 
-Project Structure
+- Flutter
+- Dart
+- Provider
+- SharedPreferences
 
+## Project Structure
+
+```text
 lib/
 ├── main.dart
 ├── models/
@@ -57,57 +63,59 @@ lib/
 │   └── home_screen.dart
 └── services/
     └── storage_service.dart
+```
 
-Installation and Setup
+## Installation and Setup
 
-Clone Repository
+### 1. Clone the Repository
 
+```bash
 git clone https://github.com/afsheenn2024-sudo/flutter_week3_task.git
+```
 
-Open Project Folder
+### 2. Navigate to Project Folder
 
+```bash
 cd flutter_week3_task
+```
 
-Install Dependencies
+### 3. Install Dependencies
 
+```bash
 flutter pub get
+```
 
-Run Application
+### 4. Run the Application
 
+```bash
 flutter run
+```
 
-Application Workflow
+## Application Workflow
 
 1. Launch the application.
 2. View the splash screen.
-3. Navigate to the task home screen.
-4. Add new tasks using the add button.
+3. Navigate to the home screen.
+4. Add tasks using the add button.
 5. Mark tasks as completed using the checkbox.
 6. Delete tasks when required.
 7. Restart the application to verify saved data.
 
-Testing and Debugging
+## Testing and Debugging
 
-The application was tested to ensure:
+The application was tested to verify:
 
-* Splash screen navigation works correctly.
-* Tasks can be added successfully.
-* Tasks can be marked as completed.
-* Tasks can be deleted.
-* Task data remains available after restarting the application.
-* SharedPreferences stores data correctly.
-* Provider updates the UI efficiently.
-* Animations work smoothly without errors.
+- Splash screen navigation works correctly.
+- Tasks can be added successfully.
+- Tasks can be marked as completed.
+- Tasks can be deleted.
+- Data remains saved after restarting the application.
+- SharedPreferences stores task data correctly.
+- Provider updates the UI correctly.
+- Animations work smoothly without issues.
 
-Future Enhancements
-
-* Firebase Authentication
-* Cloud Firestore synchronization
-* Task categories and priorities
-* Push notifications and reminders
-
-Repository
+## Repository
 
 GitHub Repository:
 
-flutter_week3_task
+[flutter_week3_task](https://github.com/afsheenn2024-sudo/flutter_week3_task)
