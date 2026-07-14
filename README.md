@@ -113,9 +113,3 @@ The application was tested to verify:
 - SharedPreferences stores task data correctly.
 - Provider updates the UI correctly.
 - Animations work smoothly without issues.
-
-## Repository
-
-GitHub Repository:
-
-[flutter_week3_task](https://github.com/afsheenn2024-sudo/flutter_week3_task)
